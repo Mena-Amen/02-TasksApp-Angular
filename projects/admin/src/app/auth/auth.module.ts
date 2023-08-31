@@ -5,20 +5,18 @@ import { MaterialModule } from '../material/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthRoutingModule } from './auth-routing.module';
-
-
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
-  declarations: [
-    LoginComponent
-  ],
+  declarations: [LoginComponent],
   imports: [
     MaterialModule,
     AuthRoutingModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    CommonModule
-  ]
+    CommonModule,
+    SharedModule,
+  ],
 })
-export class AuthModule { }
+export class AuthModule {}

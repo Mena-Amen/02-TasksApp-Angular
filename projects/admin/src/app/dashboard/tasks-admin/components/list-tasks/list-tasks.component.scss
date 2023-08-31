@@ -1,0 +1,40 @@
+button {
+  color: #fff;
+  margin: 0 5px;
+  &.addTask {
+    background-color: #ca085a;
+    color: #fff;
+    padding: 2px 23px;
+    font-size: 20px;
+  }
+}
+
+:host ::ng-deep {
+  table {
+    thead {
+      background-color: #bc1059 !important;
+      .mat-header-cell {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+table {
+  img {
+    width: 70px !important;
+    height: 70px !important;
+    padding: 5px;
+    border-radius: 20px;
+  }
+}
+
+.ngx-pagination .current {
+  background: #ca085a !important ;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}

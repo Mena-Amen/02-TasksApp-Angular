@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "addTask": "Add Task",
+    "Complete": "Complete",
+    "In-Progress": "In-Progress"
+  },
+  "users": {},
+  "general": {
+    "loading": "Loading..."
+  },
+
+  "toaster": {},
+
+  "buttons": {}
+}
